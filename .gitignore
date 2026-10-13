@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Cache / build
+.cache/
+.pytest_cache/
+.phpunit.result.cache
+*.log
+
+# Documents & archives
+*.zip
+*.rar
+*.7z
+*.docx
+*.doc
+*.pdf
+*.pptx
+*.xls
+*.xlsx
+*.csv.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
